@@ -4,3 +4,11 @@
     获取access_token
   </button>
 </view>
+
+<view>
+  <button bindtap="get_image">
+    上传图片
+  </button>
+</view>
+
+<image src="{{imageUrl}}" mode="aspectFit" />
