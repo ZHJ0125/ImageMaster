@@ -1,2 +1,6 @@
 <!--index.wxml-->
-<text>This is an empty page.</text>
+<view>
+  <button bindtap="get_access_token">
+    获取access_token
+  </button>
+</view>
