@@ -1,14 +1,39 @@
 <!--index.wxml-->
-<view>
+<!-- <view>
   <button bindtap="get_access_token">
     获取access_token
   </button>
+</view> -->
+
+<view class="welcome">
+  <text>欢迎来到ImageMaster识图小程序</text>
 </view>
 
 <view>
-  <button bindtap="get_image">
-    上传图片
+  <button bindtap="get_Animal_image">
+    上传动物图片
+  </button>
+
+  <button bindtap="get_Plant_image">
+    上传植物图片
+  </button>
+</view>
+
+<view >
+  <button bindtap="get_Car_image">
+    上传汽车图片
   </button>
 </view>
 
 <image src="{{imageUrl}}" mode="aspectFit" />
+
+
+<view>
+  <button bindtap="recognition_image">
+    识别该图片
+  </button>
+</view>
+
+<text>
+  {{message}}
+</text>
