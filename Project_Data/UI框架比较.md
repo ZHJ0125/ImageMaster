@@ -4,7 +4,7 @@
 ### 1. [项目地址](https://github.com/Tencent/weui-wxss)
 ### 2. 简介
 > WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。
-> 
+>
 > 包含button、cell、dialog、 progress、 toast、article、actionsheet、icon等各式元素。
 ### 3. 使用体验
 > 毕竟是微信官方提供的UI框架，界面肯定是与微信小程序的适配度最好。但是是感觉中规中矩，没有特别的亮点。
