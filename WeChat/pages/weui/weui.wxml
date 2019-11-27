@@ -1,0 +1,8 @@
+<!--pages/weui/weui.wxml-->
+<view class="page">
+    <view class="page__bd page__bd_spacing">
+        <button class="weui-btn" type="primary">页面主操作</button>
+        <button class="weui-btn" type="default">页面次要操作</button>
+        <button class="weui-btn" type="warn">警告类操作</button>
+    </view>
+</view>

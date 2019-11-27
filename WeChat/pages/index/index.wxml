@@ -4,36 +4,49 @@
     获取access_token
   </button>
 </view> -->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">ImageMaster</view>
+    <view class="page__desc">欢迎来到图片识别小程序 o(^▽^)o </view>
+  </view>
 
-<view class="welcome">
-  <text>欢迎来到ImageMaster识图小程序</text>
+  <view class="upload">
+    <view class="upload_button">
+      <button class="weui-btn" type="primary" bindtap="get_Animal_image">
+        上传动物图片
+      </button>
+    </view>
+    <view class="upload_button">
+      <button class="weui-btn" type="primary" bindtap="get_Plant_image">
+        上传植物图片
+      </button>
+    </view>
+    <view class="upload_button">
+      <button class="weui-btn" type="primary" bindtap="get_Car_image">
+        上传汽车图片
+      </button>
+    </view>
+  </view>
+    
+  <view class="page__hd">
+    <image src="{{imageUrl}}" mode="aspectFit" />
+  </view>
+
+  <view class="recognition_btn">
+    <button bindtap="recognition_image">
+      识别该图片
+    </button>
+  </view>
+
+  <view class="page__hd">
+    <view class="icon-box">
+        <icon type="{{load_logo}}" size="64"></icon>
+        <view class="icon-box__ctn">
+            <view class="icon-box__title">{{load_title}}</view>
+            <view class="icon-box__desc">{{load_message}}</view>
+        </view>
+    </view>
+  </view>
+
+
 </view>
-
-<view>
-  <button bindtap="get_Animal_image">
-    上传动物图片
-  </button>
-
-  <button bindtap="get_Plant_image">
-    上传植物图片
-  </button>
-</view>
-
-<view >
-  <button bindtap="get_Car_image">
-    上传汽车图片
-  </button>
-</view>
-
-<image src="{{imageUrl}}" mode="aspectFit" />
-
-
-<view>
-  <button bindtap="recognition_image">
-    识别该图片
-  </button>
-</view>
-
-<text>
-  {{message}}
-</text>

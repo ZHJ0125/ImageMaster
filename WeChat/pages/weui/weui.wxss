@@ -1,0 +1,20 @@
+/* pages/weui/weui.wxss */
+
+.mini-btn{
+    margin: 0 4px;
+}
+.weui-btn{position:relative;display:block;width:184px;margin-left:auto;margin-right:auto;padding:8px 24px;box-sizing:border-box;font-weight:700;font-size:17px;text-align:center;text-decoration:none;color:#fff;line-height:1.41176471;border-radius:4px;-webkit-tap-highlight-color:rgba(0,0,0,0);overflow:hidden}.weui-btn_block{width:auto}.weui-btn_inline{display:inline-block}
+
+page{
+    background-color: #EDEDED;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.page__bd {
+    padding-bottom: 40px;
+}
+.page__bd_spacing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
