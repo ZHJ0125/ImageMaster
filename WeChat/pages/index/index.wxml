@@ -33,7 +33,7 @@
   </view>
 
   <view class="recognition_btn">
-    <button bindtap="recognition_image">
+    <button bindtap="recognition_image" disabled="{{btn_enable}}">
       识别该图片
     </button>
   </view>

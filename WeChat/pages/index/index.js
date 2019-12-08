@@ -14,7 +14,8 @@ Page({
     message: 'Welcome to ImageMaster !\n Author : ZhangH.J.',
     load_logo: 'waiting',
     load_title: "等待上传图片",
-    load_message: "请上传图片"
+    load_message: "请上传图片",
+    btn_enable:true
   },
 
   onReady: function(res) {
@@ -39,7 +40,7 @@ Page({
     var that = this
     that.setData({
       load_title: "正在上传",
-      load_message: "正在上传图片,请稍后"
+      load_message: "正在上传图片,请稍后"      
     })
     wx.chooseImage({
       count: 1,
@@ -52,7 +53,8 @@ Page({
           imageUrl: tempFilePaths,
           load_logo: "success",
           load_message: "等待识别图片,请点击识别按钮以识别图片",
-          load_title: "上传图片成功"
+          load_title: "上传图片成功",
+          btn_enable: false
         })
         console.log('My API URL is : ' + apiUrl)
         console.log('Image Path is : ' + tempFilePaths)
@@ -86,7 +88,8 @@ Page({
           imageUrl: tempFilePaths,
           load_logo: "success",
           load_message: "等待识别图片,请点击识别按钮以识别图片",
-          load_title: "上传图片成功"
+          load_title: "上传图片成功",
+          btn_enable: false
         })
         console.log('My API URL is : ' + apiUrl)
         console.log('Image Path is : ' + tempFilePaths)
@@ -120,7 +123,8 @@ Page({
           imageUrl: tempFilePaths,
           load_logo: "success",
           load_message: "等待识别图片,请点击识别按钮以识别图片",
-          load_title: "上传图片成功"
+          load_title: "上传图片成功",
+          btn_enable: false
         })
         console.log('My API URL is : ' + apiUrl)
         console.log('Image Path is : ' + tempFilePaths)
