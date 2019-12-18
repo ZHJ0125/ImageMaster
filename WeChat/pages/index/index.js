@@ -14,7 +14,7 @@ Page({
     message: 'Welcome to ImageMaster !\n Author : ZhangH.J.',
     load_logo: 'waiting',
     load_title: "等待上传图片",
-    load_message: "请上传图片",
+    load_message: " 请上传图片",
     btn_enable:true
   },
 
