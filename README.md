@@ -5,8 +5,8 @@ WeChat mini-program using image recognition API
 Click on this link to view [project progress](https://github.com/ZHJ0125/ImageMaster/projects/1)
 
 # Page Display
-Picture recognition is shown below : 
-<div align=center><img width="300" height="300" src="https://github.com/ZHJ0125/ImageMaster/blob/master/Project_Data/WeChat_Image.jpg"/></div>
+Picture recognition is shown below :
+<div align=center><img width="300" height="300" src="./Project_Data/WeChat_Image.jpg"/></div>
 
 WeChat Search Image:
-<div align=center><img width="600" height="200" src="https://github.com/ZHJ0125/ImageMaster/blob/master/Project_Data/WeChat_Search.png"/></div>
+<div align=center><img width="600" height="200" src="./Project_Data/WeChat_Search.png"/></div>
