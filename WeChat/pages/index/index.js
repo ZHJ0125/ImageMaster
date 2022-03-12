@@ -1,8 +1,8 @@
 //index.js
 
 const grant_type = 'client_credentials'
-const client_id = 'na7ZiKRvj3n1PvHdeOFSrbEh'
-const client_secret = 'bMNEYK6717ebFl2hYzpuL9n0qx8waEl0'
+const client_id = 'xxxxxxxxxxxxxxxxxxx'
+const client_secret = 'xxxxxxxxxxxxxxx'
 var token = null
 var base64 = null
 var apiUrl = null
