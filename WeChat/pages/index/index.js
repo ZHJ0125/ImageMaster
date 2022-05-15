@@ -1,4 +1,8 @@
-//index.js
+// 文件名称：index.js
+// 项目地址：https://github.com/ZHJ0125/ImageMaster
+// 测试方法：微信小程序搜索 ImageMaster
+// 注意事项：运行以下代码前，请先自行申请百度API并修改第6、7行的内容，否则会运行报错
+// 最后修改时间：2022-05-15 09:44
 
 const grant_type = 'client_credentials'
 const client_id = 'xxxxxxxxxxxxxxxxxxx'
