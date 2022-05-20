@@ -44,7 +44,7 @@
 
 微信搜索 `ImageMaster`：
 
-<img width="400" height="120" src="Documents/WeChat_Search.png"/>
+<img width="400" height="120" src="Documents/WeChat_Search.jpg"/>
 
 CSDN 相关文章：
 
