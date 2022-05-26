@@ -8,7 +8,7 @@
 
 小程序通过调用百度图像识别的API接口，实现了对动植物以及车辆的识别。
 
-本项目**只是为了好玩**，初学者可以拿来练手。之前写的代码挺烂的，**仅供学习交流使用**。
+本项目**只是为了好玩**，初学者可以拿来练手。代码挺简单的，逻辑也比较清晰，**仅供学习交流使用**。
 
 由于年代久远，此项目中使用的百度图像识别接口有可能已被调整，因此代码仅供参考。
 
@@ -32,23 +32,25 @@
 
 **⚠ 在此也严正声明：请大家不要用我的 API 接口做开发和测试，请您自己申请免费接口！**
 
-## 项目进度
-
-本项目开发过程使用 GitHub Projects 跟踪项目进度，感兴趣的话可以 [来看看](https://github.com/ZHJ0125/ImageMaster/projects/1)
-
 ## 相关链接
 
-小程序二维码：
+CSDN 相关文章：[微信小程序——图片识别](https://blog.csdn.net/ZHJ123CSDN/article/details/103818721)
 
-<img width="180" height="180" src="Documents/WeChat_Image.jpg"/>
+<table frame=void rules=none><tr>
+<td>小程序二维码</td><td>微信搜索 `ImageMaster`</td></tr><tr>
+<td><img width="120" height="120" src="Documents/WeChat_Image.jpg"></td>
+<td><img width="400" height="120" src="Documents/WeChat_Search.jpg"></td></tr>
+</table>
 
-微信搜索 `ImageMaster`：
+## 赞助
 
-<img width="400" height="120" src="Documents/WeChat_Search.jpg"/>
+如果你喜欢 ImageMaster 并且它对你确实有帮助，欢迎给我打赏一杯咖啡哈~
 
-CSDN 相关文章：
-
-[微信小程序——图片识别](https://blog.csdn.net/ZHJ123CSDN/article/details/103818721)
+<table frame=void rules=none><tr>
+<td>支付宝</td><td>微信</td></tr><tr>
+<td><img width="120" height="120" src="Documents/alipay.jpg"></td>
+<td><img width="125" height="125" src="Documents/wechatpay.jpg"></td></tr>
+</table>
 
 ## 开源协议
 
